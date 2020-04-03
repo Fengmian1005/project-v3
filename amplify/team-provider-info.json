@@ -1,0 +1,47 @@
+{
+    "dylandev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-booked-up-dylandev-170634-authRole",
+            "UnauthRoleArn": "arn:aws:iam::312827214376:role/amplify-booked-up-dylandev-170634-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::312827214376:role/amplify-booked-up-dylandev-170634-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-booked-up-dylandev-170634-deployment",
+            "UnauthRoleName": "amplify-booked-up-dylandev-170634-unauthRole",
+            "StackName": "amplify-booked-up-dylandev-170634",
+            "StackId": "arn:aws:cloudformation:us-east-1:312827214376:stack/amplify-booked-up-dylandev-170634/776fc120-5cda-11ea-8e9f-0a6046b66d41",
+            "AmplifyAppId": "d1n96ow189r6j8"
+        },
+        "categories": {
+            "auth": {
+                "bookedup00cbc838": {}
+            }
+        }
+    },
+    "luccassdev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-booked-up-luccassdev-154304-authRole",
+            "UnauthRoleArn": "arn:aws:iam::215095822622:role/amplify-booked-up-luccassdev-154304-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::215095822622:role/amplify-booked-up-luccassdev-154304-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-booked-up-luccassdev-154304-deployment",
+            "UnauthRoleName": "amplify-booked-up-luccassdev-154304-unauthRole",
+            "StackName": "amplify-booked-up-luccassdev-154304",
+            "StackId": "arn:aws:cloudformation:us-east-1:215095822622:stack/amplify-booked-up-luccassdev-154304/2b5efe10-6afc-11ea-9b43-0e03eb938c18",
+            "AmplifyAppId": "d1ak4q21qqmbkn"
+        },
+        "categories": {
+            "auth": {
+                "bookedup00cbc838": {}
+            },
+            "function": {
+                "S3Triggerd3a56ce8": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1ak4q21qqmbkn",
+                    "type": "manual"
+                }
+            }
+        }
+    }
+}

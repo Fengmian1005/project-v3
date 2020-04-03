@@ -1,0 +1,80 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "rootDir": "src",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "build"
+  },
+  "paths": {
+    "@navigation/*": [
+      "src/navigation/*"
+    ],
+    "@hooks/*": [
+      "src/hooks/*"
+    ],
+    "@hoc/*": [
+      "src/hoc/*"
+    ],
+    "@model/*": [
+      "src/model/*"
+    ],
+    "@epics/*": [
+      "src/redux/epics/*"
+    ],
+    "@slices/*": [
+      "src/redux/slices/*"
+    ],
+    "@services/*": [
+      "src/services/*"
+    ],
+    "@types/*": [
+      "src/types/*"
+    ],
+    "@screens/*": [
+      "src/ui/screens/*"
+    ],
+    "@util/*": [
+      "src/utilities/*"
+    ],
+    "@ui/*": [
+      "src/ui/*"
+    ],
+    "@components/*": [
+      "src/ui/components/*"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": [
+    "build",
+    "dist",
+    "node_modules",
+    "jest.config.js",
+    "src/aws-exports*.js",
+    "ReactotronConfig.js"
+  ]
+}

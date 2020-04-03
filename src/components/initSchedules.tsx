@@ -1,0 +1,48 @@
+const ex_schedules = [
+  {
+    id: '1',
+    calendarId: '1',
+    title: 'Bell Bank - Blaine, MN (325 total hours : 2020-03-01 ~ 2020-03-21) 2 workers allocated',
+    category: 'allday',
+    dueDateClass: '',
+    start: '2020-03-01T22:30:00+09:00',
+    end: '2020-03-21T23:30:00+09:00',
+    bgColor: '#ff0000',
+    raw: { jobTitle: 'Bell Bank - Blaine, MN ', jobHours: 325, jobWorkerNumbers: 2, jobHoursPerDay: 8 },
+  },
+  {
+    id: '2',
+    calendarId: '1',
+    title: 'Johnson Remodel - Fargo, ND (450 total hours : 2020-03-03 ~ 2020-03-31) 2 workers allocated',
+    category: 'allday',
+    dueDateClass: '',
+    start: '2020-03-03T17:30:00+09:00',
+    end: '2020-03-31T17:31:00+09:00',
+    bgColor: '#ff0000',
+    raw: { jobTitle: 'Johnson Remodel - Fargo, ND', jobHours: 450, jobWorkerNumbers: 2, jobHoursPerDay: 8 },
+  },
+  {
+    id: '3',
+    calendarId: '1',
+    title: 'Kommer Bank - Bismarck, ND (275 total hours : 2020-03-11 ~ 2020-03-28) 2 workers allocated',
+    category: 'allday',
+    dueDateClass: '',
+    start: '2020-03-11T17:30:00+09:00',
+    end: '2020-03-28T17:31:00+09:00',
+    bgColor: '#ff0000',
+    raw: { jobTitle: 'Kommer Bank - Bismarck, ND ', jobHours: 275, jobWorkerNumbers: 2, jobHoursPerDay: 8 },
+  },
+  {
+    id: '4',
+    calendarId: '1',
+    title: 'Olson Remodel - Moorhead, MN (80 total hours : 2020-03-24 ~ 2020-03-28) 2 workers of allocated',
+    category: 'allday',
+    dueDateClass: '',
+    start: '2020-03-241T17:30:00+09:00',
+    end: '2020-03-28T17:31:00+09:00',
+    bgColor: '#ff0000',
+    raw: { jobTitle: 'Olson Remodel - Moorhead, MN ', jobHours: 80, jobWorkerNumbers: 2, jobHoursPerDay: 8 },
+  },
+]
+
+export default ex_schedules
