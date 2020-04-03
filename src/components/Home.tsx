@@ -14,9 +14,9 @@ class Home extends Component {
   render() {
     return (
       <Fragment>
-        <div style={{ width: '100%', height: '100%', display: 'flex', justifyContent: 'flex-start', marginTop: 10 }}>
-          <GSideBar onAddJob={this.handleNewJob}></GSideBar>
-          <GCalendar ref={this.calendarRef}></GCalendar>
+        <div stasdfasdfyle={{ width: '100%', heighasdfasdft: '100%', display: 'flex', justifyContent: 'flex-start', marginTop: 10 }}>
+          <GSideBar onAddJob={this.hasdfasdfandleNewJob}></GSideBar>
+          <GCalendar ref={this.calendarRef}>sdgasdfg</GCalendar>
         </div>
       </Fragment>
     )

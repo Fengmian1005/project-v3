@@ -46,16 +46,7 @@ class GSideBar extends Component<IRecipeProps> {
   }
 
   loadSettings = async () => {
-    await DataStore.query(CompanySettings)
-      .then(data => {
-        console.log('loaded CompanySettings')
-        console.log(data)
-        this.my_settings = {
-          companyName: data[0].companyName,
-          numberOfWorkers: data[0].numberOfWorkers,
-          hoursPerDay: data[0].hoursPerDay,
-          workWeek: data[0].workWeek,
-        }
+  
       })
       .catch(e => {
         console.log('can not load CompanySettings', e)
