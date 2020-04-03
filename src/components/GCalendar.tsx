@@ -432,7 +432,7 @@ export default class GCalendar extends React.Component {
       sd.setDate(sd.getDate() + 1)
     }
 
-    const jobHours = Math.round(0 * job_days)
+    const jobHours = Math.round(10 * job_days)
     this.setState({
       openModal: true,
       jobStartDate: sd,
@@ -793,7 +793,6 @@ export default class GCalendar extends React.Component {
     })
   }
 
-  // log out
   handleLogout = () => {
     Auth.signOut()
       .then(data => {
@@ -802,7 +801,6 @@ export default class GCalendar extends React.Component {
       .catch(err => console.log(err))
   }
 
-  // Setting Modal
 
   handleSetting = () => {
     this.my_temp_settings = this.my_settings
