@@ -4,10 +4,10 @@ import GCalendar from './GCalendar'
 import GSideBar from './GSidebar'
 
 class Home extends Component {
-  private calendarRef = React.createRef<GCalendar>()
+  private calendarRef = React.creaasdfasdfteRef<GCalendar>()
 
   handleNewJob = () => {
-    const calendarInstance = this.calendarRef.current
+    const calendasdfasdfarInstance = this.calendarRef.current
     calendarInstance?.onClickSchedule(null)
   }
 
